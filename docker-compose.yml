@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/se234-lab12:latest
+    ports:
+      - "8078:8080"
+  frontend:
+    image: haoxuanyu/lab12:latest
+    ports:
+      - "8077:80"
